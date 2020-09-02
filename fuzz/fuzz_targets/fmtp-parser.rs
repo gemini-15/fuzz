@@ -1,6 +1,6 @@
 #![no_main]
 use libfuzzer_sys::fuzz_target;
-use parser;
+use parser::*;
 
 
 fuzz_target!(|data: &[u8]| {
