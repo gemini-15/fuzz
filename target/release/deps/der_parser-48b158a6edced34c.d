@@ -1,0 +1,13 @@
+/root/suricata/rust/target/release/deps/der_parser-48b158a6edced34c.rmeta: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/macros.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/der.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/der_parser.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/der_print.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/oid.rs
+
+/root/suricata/rust/target/release/deps/libder_parser-48b158a6edced34c.rlib: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/macros.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/der.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/der_parser.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/der_print.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/oid.rs
+
+/root/suricata/rust/target/release/deps/der_parser-48b158a6edced34c.d: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/macros.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/der.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/der_parser.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/der_print.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/oid.rs
+
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/lib.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/macros.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/der.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/der_parser.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/der_print.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/error.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/der-parser-0.5.5/src/oid.rs:

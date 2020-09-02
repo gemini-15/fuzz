@@ -1,0 +1,8 @@
+# FMTP Alert rules
+alert fmtp-rust any any -> any any (msg:"SURICATA fmtp invalid fmtp header version"; flow:established; app-layer-event:fmtp-rust.header_version_error; classtype:protocol-command-decode; sid:8500001; rev:1;)
+alert fmtp-rust any any -> any any (msg:"SURICATA fmtp invalid reserved header section"; flow:established; app-layer-event:fmtp-rust.header_reserved_error; classtype:protocol-command-decode; sid:8500002; rev:1;)
+alert fmtp-rust any any -> any any (msg:"SURICATA fmtp invalid fmtp header mtype"; flow:established; app-layer-event:fmtp-rust.header_mtype_error; classtype:protocol-command-decode; sid:8500003; rev:1;)
+alert fmtp-rust any any -> any any (msg:"SURICATA fmtp Malformed data"; flow:established; app-layer-event:fmtp-rust.malformed_data; classtype:protocol-command-decode; sid:8500004; rev:1;)
+alert fmtp-rust any any -> any any (msg:"SURICATA fmtp falsely encoded"; flow:established; app-layer-event:fmtp-rust.encoding_error; classtype:protocol-command-decode; sid:8500005; rev:1;)
+alert fmtp-rust any any -> any any (msg:"SURICATA fmtp connection state error"; flow: established; app-layer-event: fmtp-rust.connection_state_error; classtype:protocol-command-decode; sid: 8500006; rev:1;)
+#sid suivant 8500007

@@ -1,0 +1,1 @@
+{"rustc":515102767086296326,"features":"[]","target":17480500549677453385,"profile":14691631496892118377,"path":6360277866258274424,"deps":[[15911330923093796936,"nom",false,6096171439291599772]],"local":[{"CheckDepInfo":{"dep_info":"release/.fingerprint/rusticata-macros-d2b79a2bdcb6817e/dep-lib-rusticata_macros-d2b79a2bdcb6817e"}}],"rustflags":[],"metadata":17930867828938201426}

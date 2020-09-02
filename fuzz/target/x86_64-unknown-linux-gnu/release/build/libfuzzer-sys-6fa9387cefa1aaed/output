@@ -1,0 +1,99 @@
+cargo:rerun-if-changed=libfuzzer/FuzzerIO.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerIOWindows.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerDriver.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerMutate.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerLoop.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerMerge.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerUtil.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerExtFunctionsWeak.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerDataFlowTrace.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerCrossOver.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerUtilPosix.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerTracePC.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerUtilDarwin.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerMain.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerExtraCounters.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerExtFunctionsWindows.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerFork.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerSHA1.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerUtilLinux.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerInterceptors.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerUtilFuchsia.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerUtilWindows.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerExtFunctionsDlsym.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerIOPosix.cpp
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("3")
+HOST = Some("x86_64-unknown-linux-gnu")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,mmx,sse,sse2")
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-std=c++11" "-fno-omit-frame-pointer" "-w" "-o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerIO.o" "-c" "libfuzzer/FuzzerIO.cpp"
+exit code: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-std=c++11" "-fno-omit-frame-pointer" "-w" "-o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerIOWindows.o" "-c" "libfuzzer/FuzzerIOWindows.cpp"
+exit code: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-std=c++11" "-fno-omit-frame-pointer" "-w" "-o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerDriver.o" "-c" "libfuzzer/FuzzerDriver.cpp"
+exit code: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-std=c++11" "-fno-omit-frame-pointer" "-w" "-o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerMutate.o" "-c" "libfuzzer/FuzzerMutate.cpp"
+exit code: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-std=c++11" "-fno-omit-frame-pointer" "-w" "-o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerLoop.o" "-c" "libfuzzer/FuzzerLoop.cpp"
+exit code: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-std=c++11" "-fno-omit-frame-pointer" "-w" "-o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerMerge.o" "-c" "libfuzzer/FuzzerMerge.cpp"
+exit code: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-std=c++11" "-fno-omit-frame-pointer" "-w" "-o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerUtil.o" "-c" "libfuzzer/FuzzerUtil.cpp"
+exit code: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-std=c++11" "-fno-omit-frame-pointer" "-w" "-o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerExtFunctionsWeak.o" "-c" "libfuzzer/FuzzerExtFunctionsWeak.cpp"
+exit code: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-std=c++11" "-fno-omit-frame-pointer" "-w" "-o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerDataFlowTrace.o" "-c" "libfuzzer/FuzzerDataFlowTrace.cpp"
+exit code: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-std=c++11" "-fno-omit-frame-pointer" "-w" "-o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerCrossOver.o" "-c" "libfuzzer/FuzzerCrossOver.cpp"
+exit code: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-std=c++11" "-fno-omit-frame-pointer" "-w" "-o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerUtilPosix.o" "-c" "libfuzzer/FuzzerUtilPosix.cpp"
+exit code: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-std=c++11" "-fno-omit-frame-pointer" "-w" "-o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerTracePC.o" "-c" "libfuzzer/FuzzerTracePC.cpp"
+exit code: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-std=c++11" "-fno-omit-frame-pointer" "-w" "-o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerUtilDarwin.o" "-c" "libfuzzer/FuzzerUtilDarwin.cpp"
+exit code: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-std=c++11" "-fno-omit-frame-pointer" "-w" "-o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerMain.o" "-c" "libfuzzer/FuzzerMain.cpp"
+exit code: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-std=c++11" "-fno-omit-frame-pointer" "-w" "-o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerExtraCounters.o" "-c" "libfuzzer/FuzzerExtraCounters.cpp"
+exit code: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-std=c++11" "-fno-omit-frame-pointer" "-w" "-o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerExtFunctionsWindows.o" "-c" "libfuzzer/FuzzerExtFunctionsWindows.cpp"
+exit code: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-std=c++11" "-fno-omit-frame-pointer" "-w" "-o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerFork.o" "-c" "libfuzzer/FuzzerFork.cpp"
+exit code: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-std=c++11" "-fno-omit-frame-pointer" "-w" "-o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerSHA1.o" "-c" "libfuzzer/FuzzerSHA1.cpp"
+exit code: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-std=c++11" "-fno-omit-frame-pointer" "-w" "-o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerUtilLinux.o" "-c" "libfuzzer/FuzzerUtilLinux.cpp"
+exit code: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-std=c++11" "-fno-omit-frame-pointer" "-w" "-o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerInterceptors.o" "-c" "libfuzzer/FuzzerInterceptors.cpp"
+exit code: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-std=c++11" "-fno-omit-frame-pointer" "-w" "-o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerUtilFuchsia.o" "-c" "libfuzzer/FuzzerUtilFuchsia.cpp"
+exit code: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-std=c++11" "-fno-omit-frame-pointer" "-w" "-o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerUtilWindows.o" "-c" "libfuzzer/FuzzerUtilWindows.cpp"
+exit code: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-std=c++11" "-fno-omit-frame-pointer" "-w" "-o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerExtFunctionsDlsym.o" "-c" "libfuzzer/FuzzerExtFunctionsDlsym.cpp"
+exit code: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-std=c++11" "-fno-omit-frame-pointer" "-w" "-o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerIOPosix.o" "-c" "libfuzzer/FuzzerIOPosix.cpp"
+exit code: 0
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+running: "ar" "crs" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer.a" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerIO.o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerIOWindows.o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerDriver.o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerMutate.o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerLoop.o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerMerge.o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerUtil.o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerExtFunctionsWeak.o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerDataFlowTrace.o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerCrossOver.o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerUtilPosix.o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerTracePC.o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerUtilDarwin.o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerMain.o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerExtraCounters.o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerExtFunctionsWindows.o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerFork.o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerSHA1.o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerUtilLinux.o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerInterceptors.o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerUtilFuchsia.o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerUtilWindows.o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerExtFunctionsDlsym.o" "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out/libfuzzer/FuzzerIOPosix.o"
+exit code: 0
+cargo:rustc-link-lib=static=fuzzer
+cargo:rustc-link-search=native=/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/fuzz/target/x86_64-unknown-linux-gnu/release/build/libfuzzer-sys-6fa9387cefa1aaed/out
+CXXSTDLIB_x86_64-unknown-linux-gnu = None
+CXXSTDLIB_x86_64_unknown_linux_gnu = None
+HOST_CXXSTDLIB = None
+CXXSTDLIB = None
+cargo:rustc-link-lib=stdc++
