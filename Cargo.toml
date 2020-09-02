@@ -4,7 +4,7 @@ version = "4.1.7-fmtp"
 
 [lib]
 crate-type = ["staticlib"]
-path = "/home/kali/Desktop/suricataComplet/suricata-4.1.7/rust/src/lib.rs"
+path = "src/lib.rs"
 
 [profile.release]
 debug = true
